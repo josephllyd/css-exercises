@@ -20,6 +20,19 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+.top-three-mod {
+  display: flex;
+  gap: 8px;
+}
+
+.top-mod {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
 }
 
 .icon {
@@ -63,4 +76,17 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text {
+  padding-bottom: 16px;
+}
+
+.header {
+
+  font-size: large;
+}
+
+.bot-mod {
+  padding-left: 48px;
 }
